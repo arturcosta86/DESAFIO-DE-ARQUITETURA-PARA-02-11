@@ -28,6 +28,35 @@ Este projeto apresenta uma arquitetura AWS de três camadas otimizada para perfo
 
 ## Diagrama da Arquitetura (Mermaid - Opcional)
 
+# Desafio de Arquitetura AWS - Eficiência de Performance
+
+Este projeto apresenta uma arquitetura AWS de três camadas otimizada para performance, utilizando os princípios do pilar de Eficiência de Performance do AWS Well-Architected Framework. O objetivo é otimizar uma arquitetura existente, adicionando serviços e ajustes para maximizar a performance e a resiliência.
+
+## Grupo 4 – EFICIÊNCIA DE PERFORMANCE
+
+* Michael Jhon Rodrigues Costa
+* Gabriele da Conceição Jesus
+* José Tadeu Daher
+* Guilherme Thomas
+* Affonso Souza
+* Victor Ramos Andrade Callegari
+* Tiago Silva Souza
+* Luciano Alves Teles
+* Artur de Souza Costa
+* Diogo De Assis Luna Da Silva
+
+## Arquitetura Proposta
+
+### Diagrama Estático
+
+![Diagrama Estático](https://github.com/arturcosta86/DESAFIO-DE-ARQUITETURA-PARA-02-11/blob/main/Desafio%20Well-Architected%20Framework%20-%20Resolucao%20Designer%20Efici%C3%AAncia%20de%20Performance%20-%20WAF.png)
+
+### Diagrama Animado (GIF)
+
+![Diagrama Animado](https://github.com/arturcosta86/DESAFIO-DE-ARQUITETURA-PARA-02-11/blob/main/Desafio%20Well-Architected%20Framework%20-%20Resolucao%20Designer%20Eficiencia%20de%20Performance%20-%20WAF.gif)
+
+## Diagrama da Arquitetura (Mermaid - Opcional)
+
 ```mermaid
 graph LR
     Usuarios((Usuários)) --> CloudFront[CloudFront] --> ALB[Application Load Balancer]
@@ -54,7 +83,7 @@ graph LR
     CloudWatch --> ASApp
     CloudWatch --> ElastiCache
     CloudWatch --> RDS
-```
+````
 
 ## Justificativa das Alterações
 
