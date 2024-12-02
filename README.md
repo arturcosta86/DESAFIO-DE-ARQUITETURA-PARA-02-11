@@ -1,4 +1,3 @@
-```markdown
 # Desafio de Arquitetura AWS - Eficiência de Performance
 
 Este projeto apresenta uma arquitetura AWS de três camadas otimizada para performance, utilizando os princípios do pilar de Eficiência de Performance do AWS Well-Architected Framework. O objetivo é otimizar uma arquitetura existente, adicionando serviços e ajustes para maximizar a performance e a resiliência.
@@ -20,11 +19,11 @@ Este projeto apresenta uma arquitetura AWS de três camadas otimizada para perfo
 
 ### Diagrama Estático
 
-![Diagrama Estático](nome_do_seu_diagrama_estatico.png)  *(Substitua `nome_do_seu_diagrama_estatico.png` pelo nome do seu arquivo)*
+![Diagrama Estático](Desafio Well-Architected Framework - Resolucao Designer Eficiência de Performance - WAF.png)
 
 ### Diagrama Animado (GIF)
 
-![Diagrama Animado](nome_do_seu_gif.gif) *(Substitua `nome_do_seu_gif.gif` pelo nome do seu arquivo)*
+![Diagrama Animado](Desafio Well-Architected Framework - Resolucao Designer Eficiencia de Performance - WAF.gif)
 
 
 ## Diagrama da Arquitetura (Mermaid - Opcional)
@@ -72,9 +71,10 @@ As seguintes alterações foram implementadas para otimizar a performance:
 
 ## Arquivos do Projeto
 
-* `Desafio Well-Architected Framework - Resolucao Designer Eficiencia de Performance - WAF.drawio`: Arquivo do diagrama no formato diagrams.net (editável).
-* `nome_do_seu_gif.gif`: Arquivo GIF com a animação do fluxo de dados. *(Substitua pelo nome do seu arquivo)*
-* `nome_do_seu_diagrama_estatico.png`: Arquivo de imagem estática do diagrama. *(Substitua pelo nome do seu arquivo)*
+* `Desafio Well-Architected Framework - Resolucao Designer Eficiência de Performance - WAF.drawio`: Arquivo do diagrama no formato diagrams.net (editável).
+* `Desafio Well-Architected Framework - Resolucao Designer Eficiencia de Performance - WAF.html`: Arquivo do diagrama no formato html.
+* `Desafio Well-Architected Framework - Resolucao Designer Eficiencia de Performance - WAF.gif`: Arquivo GIF com a animação do fluxo de dados.
+* `Desafio Well-Architected Framework - Resolucao Designer Eficiência de Performance - WAF.png`: Arquivo de imagem estática do diagrama.
 * `Desafio Well-Architected Framework.drawio`: Arquivo base do diagrama fornecido pelo professor.
 
 
