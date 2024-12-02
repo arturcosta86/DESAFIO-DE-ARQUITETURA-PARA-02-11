@@ -55,7 +55,7 @@ Este projeto apresenta uma arquitetura AWS de três camadas otimizada para perfo
 
 ![Diagrama Animado](https://github.com/arturcosta86/DESAFIO-DE-ARQUITETURA-PARA-02-11/blob/main/Desafio%20Well-Architected%20Framework%20-%20Resolucao%20Designer%20Eficiencia%20de%20Performance%20-%20WAF.gif)
 
-## Diagrama da Arquitetura (Mermaid - Opcional)
+## Diagrama da Arquitetura (Mermaid)
 
 ```mermaid
     graph LR
@@ -63,9 +63,10 @@ Este projeto apresenta uma arquitetura AWS de três camadas otimizada para perfo
 
     subgraph VPC 10.0.0.0/16
         subgraph Sub-rede pública
-            ALB --> ASWeb[Auto Scaling (Web Servers)]
+            ASWeb[Auto Scaling (Web Servers)]
+            ALB --> ASWeb
             ASWeb --> AppPub[Servidor de aplicativo (Público)]
-        end  <-- Adicione o 'end' aqui
+        end
 
         subgraph Sub-rede privada
             AppPub --> AppPriv[Servidor de aplicativo (Privado)]
