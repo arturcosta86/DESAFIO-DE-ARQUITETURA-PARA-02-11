@@ -58,14 +58,14 @@ Este projeto apresenta uma arquitetura AWS de três camadas otimizada para perfo
 ## Diagrama da Arquitetura (Mermaid - Opcional)
 
 ```mermaid
-graph LR
+    graph LR
     Usuarios((Usuários)) --> CloudFront[CloudFront] --> ALB[Application Load Balancer]
 
     subgraph VPC 10.0.0.0/16
         subgraph Sub-rede pública
             ALB --> ASWeb[Auto Scaling (Web Servers)]
             ASWeb --> AppPub[Servidor de aplicativo (Público)]
-        end
+        end  <-- Adicione o 'end' aqui
 
         subgraph Sub-rede privada
             AppPub --> AppPriv[Servidor de aplicativo (Privado)]
@@ -83,7 +83,7 @@ graph LR
     CloudWatch --> ASApp
     CloudWatch --> ElastiCache
     CloudWatch --> RDS
-````
+```
 
 ## Justificativa das Alterações
 
