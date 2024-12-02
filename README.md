@@ -44,7 +44,7 @@ As seguintes alterações foram implementadas para otimizar a performance:
 * `Desafio Well-Architected Framework - Resolucao Designer Eficiencia de Performance - WAF.html`: Arquivo do diagrama no formato html.
 * `Desafio Well-Architected Framework - Resolucao Designer Eficiencia de Performance - WAF.gif`: Arquivo GIF com a animação do fluxo de dados.
 * `Desafio Well-Architected Framework - Resolucao Designer Eficiência de Performance - WAF.png`: Arquivo de imagem estática do diagrama.
-* `Desafio Well-Architected Framework.drawio`: Arquivo base do diagrama fornecido pelo professor.
+* `Desafio Well-Architected Framework.drawio`: Arquivo base do diagrama fornecido pelo professor (editável).
 
 
 ## Próximos Passos (Opcional)
