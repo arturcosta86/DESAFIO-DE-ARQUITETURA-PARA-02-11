@@ -4,7 +4,16 @@ Este projeto apresenta uma arquitetura AWS de três camadas otimizada para perfo
 
 ## Grupo 4 – EFICIÊNCIA DE PERFORMANCE
 
-* (Nomes dos membros do grupo)
+* Michael Jhon Rodrigues Costa
+* Gabriele da Conceição Jesus
+* José Tadeu Daher
+* Guilherme Thomas
+* Affonso Souza
+* Victor Ramos Andrade Callegari
+* Tiago Silva Souza
+* Luciano Alves Teles
+* Artur de Souza Costa
+* Diogo De Assis Luna Da Silva
 
 ## Arquitetura Proposta
 
